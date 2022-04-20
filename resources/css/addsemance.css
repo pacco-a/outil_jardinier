@@ -1,0 +1,14 @@
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form label {
+	display: flex;
+	flex-direction: column;
+}
+
+form label span {
+	font-size: 14px;
+	font-style: italic;
+}

@@ -1,0 +1,50 @@
+#semances-list {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.semance-label {
+	font-size: 10px;
+}
+
+.semance {
+	background-color: #73906e;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 150px;
+	height: fit-content;
+
+	padding: 5px 5px 0 5px;
+
+	border: 1px black solid;
+}
+
+.semance-img {
+	width: 70px;
+	height: 80px;
+}
+
+.semance-bottom-part {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 5px;
+}
+
+.semance-bottom-part span {
+	width: 100%;
+	border: 1px black solid;
+	margin-right: -1px;
+	padding-left: 2px;
+}
+
+#semances-menu {
+	background-color: #e8e8e8;
+	text-align: right;
+}
